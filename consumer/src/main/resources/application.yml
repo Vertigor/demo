@@ -1,0 +1,17 @@
+server:
+  port: 56020
+
+
+spring:
+  application:
+    name: quickstart-consumer
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      discovery:
+        server-addr: 106.15.187.41:8848
+logging:
+  level:
+    root: info
+    org.springframework: info
